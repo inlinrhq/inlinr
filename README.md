@@ -29,5 +29,5 @@ that disappears into an inbox.
 
 ## Security
 
-For anything involving other people's data, email **security@inlinr.com**
+For anything involving other people's data, email **contact@inlinr.com**
 rather than opening a public issue.
