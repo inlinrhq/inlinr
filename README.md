@@ -33,7 +33,7 @@ Last updated 14 Oct 2026.
 | Cursor | ✅ Available |
 | Windsurf | ✅ Available |
 | Claude Code (terminal, desktop, IDE, cloud) | ✅ Available |
-| Any editor with a WakaTime plugin, through a WakaTime-compatible API | 🔨 In progress |
+| Any editor with a WakaTime plugin, through a WakaTime-compatible API | ✅ Available |
 | JetBrains (IntelliJ, WebStorm, PyCharm, GoLand, Rider) | 💭 Considering |
 | Neovim | 💭 Considering |
 
