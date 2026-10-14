@@ -1,0 +1,30 @@
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask anything about using Inlinr. If something is broken, a
+        [bug report](https://github.com/inlinrhq/inlinr/issues/new?template=bug_report.yml)
+        is the faster route. Never paste a device token or an API key here.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: dropdown
+    id: editor
+    attributes:
+      label: Where does it happen?
+      options:
+        - VS Code
+        - Cursor
+        - Windsurf
+        - Claude Code
+        - JetBrains (WakaTime plugin)
+        - Neovim (WakaTime plugin)
+        - Another WakaTime plugin
+        - Dashboard or website
+        - Not specific to an editor
+    validations:
+      required: false

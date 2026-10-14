@@ -1,0 +1,42 @@
+title: "[Idea] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Before posting, check the
+        [roadmap](https://inlinr.com/roadmap): if your idea is already under
+        Considering, add a 👍 to its issue instead. Votes decide the order.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The situation and what gets in your way today. The problem matters more than the solution.
+      placeholder: "I send a monthly invoice to each client and have to copy the hours by hand from…"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help?
+      description: How you picture it working, if you have an idea.
+    validations:
+      required: false
+  - type: dropdown
+    id: who
+    attributes:
+      label: How do you use Inlinr?
+      options:
+        - Solo freelancer
+        - Salaried developer
+        - Team or agency
+        - Not using it yet
+    validations:
+      required: false
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What do you do instead today?
+      description: Another tool, a spreadsheet, nothing at all.
+    validations:
+      required: false
