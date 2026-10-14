@@ -1,0 +1,66 @@
+name: Bug report
+description: Something in Inlinr doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. For a security issue, do not open an issue:
+        email contact@inlinr.com instead (see [SECURITY.md](https://github.com/inlinrhq/inlinr/blob/main/SECURITY.md)).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you saw. Screenshots welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: dropdown
+    id: editor
+    attributes:
+      label: Where?
+      options:
+        - VS Code
+        - Cursor
+        - Windsurf
+        - Claude Code
+        - JetBrains (WakaTime plugin)
+        - Neovim (WakaTime plugin)
+        - Another WakaTime plugin
+        - Dashboard or website
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Extension or plugin version
+      description: Leave empty for a dashboard or website issue.
+      placeholder: "vscode-inlinr 0.4.2"
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Not relevant
+    validations:
+      required: true
+  - type: textarea
+    id: doctor
+    attributes:
+      label: Output of `inlinr doctor`
+      description: |
+        For tracking problems. Run the "Inlinr: Doctor" command in your editor,
+        or `inlinr doctor` in a terminal. Remove any token before pasting.
+      render: shell
+    validations:
+      required: false
