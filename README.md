@@ -46,12 +46,18 @@ Last updated 14 Oct 2026.
 | Client share links | ✅ Available |
 | Invoices and versioned hourly rates | ✅ Available |
 | WakaTime import | ✅ Available |
-| Dependency tracking (npm, opt-in per project) | ✅ Available |
+| Dependency feed: releases, notes and advisories (npm, opt-in per project) | ✅ Available |
 | Public profile and README card | ✅ Available |
+| Weekly target | ✅ Available |
 | Shipped vs edited code | 🔨 In progress |
 | AI costs on client invoices, with a budget per project | 💭 Considering |
 | Time per ticket, read from the branch name | 💭 Considering |
-| Calendar import into manual entries | 💭 Considering |
+| Calendar, Toggl and Clockify import into manual entries | 💭 Considering |
+| A switch from WakaTime in one sitting | 💭 Considering |
+| Public demo dashboard | 💭 Considering |
+| Locked invoices and Factur-X export | 💭 Considering |
+| MCP server: your time and AI cost from inside the assistant | 💭 Considering |
+| More AI assistants (Codex, Gemini CLI…) | 💭 Considering |
 
 Something missing? Open an idea in
 [Discussions](https://github.com/inlinrhq/inlinr/discussions/categories/ideas),
