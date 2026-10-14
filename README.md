@@ -45,6 +45,8 @@ Last updated 14 Oct 2026.
 | Teams, with seat-based billing | ✅ Available |
 | Client share links | ✅ Available |
 | Invoices and versioned hourly rates | ✅ Available |
+| Manual entries (meetings, calls, reviews) | ✅ Available |
+| File history, with AI share per file | ✅ Available |
 | WakaTime import | ✅ Available |
 | Dependency feed: releases, notes and advisories (npm, opt-in per project) | ✅ Available |
 | Public profile and README card | ✅ Available |
