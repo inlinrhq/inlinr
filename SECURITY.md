@@ -1,7 +1,7 @@
 # Security
 
 If you find a vulnerability in Inlinr (inlinr.com, the editor extensions, the
-CLI or the Claude Code plugin), email **contact@inlinr.com** with:
+CLI or the Claude Code plugin), email **support@inlinr.com** with:
 
 - what you found and where,
 - the steps to reproduce it,

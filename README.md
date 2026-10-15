@@ -88,5 +88,5 @@ Something missing? Open an idea in
 
 ## Security
 
-For anything involving other people's data, email **contact@inlinr.com**
+For anything involving other people's data, email **support@inlinr.com**
 rather than opening a public issue.
