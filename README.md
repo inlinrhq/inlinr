@@ -26,7 +26,7 @@ mentioned, which is more useful than a form that disappears into an inbox.
 
 Mirrors [inlinr.com/roadmap](https://inlinr.com/roadmap), which is the
 reference. Nothing is listed as available until it works in production.
-Last updated 14 Oct 2026.
+Last updated 15 Oct 2026.
 
 ### ✅ Available
 
@@ -67,7 +67,7 @@ Wanted, not started. Add a 👍 to an idea's issue to move it up: [inlinr.com/ro
 | **Calendar, Toggl and Clockify import** | Turn the meetings in a Google or Outlook calendar into manual entries you confirm, and bring your Toggl or Clockify history the way WakaTime history already comes in. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/9) |
 | **A switch from WakaTime in one sitting** | Your WakaTime dashboards and status-bar tools reading from Inlinr too, and a guide for sending to both while you compare. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/10) |
 | **Public demo dashboard** | Fictional data, read-only, no account: see the time, AI cost and invoice views before signing up. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/11) |
-| **Locked invoices and e-invoicing export** | An invoice frozen once issued, exported as Factur-X and to the invoicing tools freelancers already use. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/12) |
+| **E-invoices through Qonto** | Connect your Qonto account and create the invoice there from tracked time: Qonto numbers it and sends it as the e-invoice French clients need from September 2027. The printable invoice stays for clients abroad. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/12) |
 | **Inlinr inside your assistant** | An MCP server, so an assistant can tell you your time and AI cost this week, or log a manual entry, without leaving the chat. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/13) |
 | **More AI assistants** | Token and line counts from Codex, Gemini CLI and other assistants that keep local transcripts, like Claude Code today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/6) |
 | **Monthly AI report by email** | Once a month, your share of AI-written code, what the assistants cost, and which projects it went to. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/14) |
