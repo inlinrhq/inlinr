@@ -6,6 +6,6 @@ This community follows the
 In short: be kind, assume good faith, and criticise ideas rather than people.
 Harassment, insults and personal attacks are not tolerated.
 
-To report a problem, email **contact@inlinr.com**. Reports are read by the
+To report a problem, email **hello@inlinr.com**. Reports are read by the
 maintainer only and kept confidential. Depending on what happened, the response
 ranges from a warning to a permanent ban from the repository.
