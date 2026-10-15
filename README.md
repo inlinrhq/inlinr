@@ -39,7 +39,8 @@ In production. Install it today.
 | **Teams** | Roll up time across a repository. Teammates see hours per repository and per member — never each other's files. |
 | **Seat-based team billing** | One subscription for the team, one seat per active member, prorated when people join or leave. |
 | **Client share links** | A read-only report you choose the contents of, optionally PIN-protected. |
-| **Invoices and hourly rates** | Printable invoices from tracked time and billable manual entries, with versioned rates so raising yours never rewrites an old invoice. |
+| **Invoices and hourly rates** | Invoices from tracked time and billable manual entries, numbered in one series per year and never billing a day twice, with versioned rates so raising yours never rewrites an old invoice. |
+| **Clients** | Who you bill, with legal name, SIREN or company number, VAT number and address, imported from Qonto if you use it. |
 | **Manual entries** | Meetings, calls and reviews logged by hand, billable or not, next to the tracked time. |
 | **File history** | Every file of a project with its time, its edits and how much an assistant wrote, day by day. |
 | **WakaTime import** | Bring your WakaTime history with you, computed with the same idle rule as live data. |
@@ -55,6 +56,7 @@ Being built now. Not usable yet.
 | | |
 |---|---|
 | **Shipped vs edited code** | Commit line counts next to editing time, so rework is visible rather than implied. |
+| **E-invoices through Qonto** | Your Qonto account is already connected for clients. Next, an invoice from tracked time created there, so Qonto sends it as the e-invoice French clients need from September 2027. The printable invoice stays for clients abroad. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/12) |
 
 ### 💭 Considering
 
@@ -67,7 +69,6 @@ Wanted, not started. Add a 👍 to an idea's issue to move it up: [inlinr.com/ro
 | **Calendar, Toggl and Clockify import** | Turn the meetings in a Google or Outlook calendar into manual entries you confirm, and bring your Toggl or Clockify history the way WakaTime history already comes in. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/9) |
 | **A switch from WakaTime in one sitting** | Your WakaTime dashboards and status-bar tools reading from Inlinr too, and a guide for sending to both while you compare. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/10) |
 | **Public demo dashboard** | Fictional data, read-only, no account: see the time, AI cost and invoice views before signing up. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/11) |
-| **E-invoices through Qonto** | Connect your Qonto account and create the invoice there from tracked time: Qonto numbers it and sends it as the e-invoice French clients need from September 2027. The printable invoice stays for clients abroad. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/12) |
 | **Inlinr inside your assistant** | An MCP server, so an assistant can tell you your time and AI cost this week, or log a manual entry, without leaving the chat. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/13) |
 | **More AI assistants** | Token and line counts from Codex, Gemini CLI and other assistants that keep local transcripts, like Claude Code today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/6) |
 | **Monthly AI report by email** | Once a month, your share of AI-written code, what the assistants cost, and which projects it went to. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/14) |
