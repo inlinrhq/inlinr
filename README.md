@@ -26,7 +26,7 @@ mentioned, which is more useful than a form that disappears into an inbox.
 
 Mirrors [inlinr.com/roadmap](https://inlinr.com/roadmap), which is the
 reference. Nothing is listed as available until it works in production.
-Last updated 21 Oct 2026.
+Last updated 27 Oct 2026.
 
 ### ✅ Available
 
@@ -42,6 +42,7 @@ In production. Install it today.
 | **Invoices, hourly and day rates** | Invoices from tracked time and billable manual entries, by the hour, by the day or for a fixed price in instalments, with your VAT or its legal mention. Numbered in one series per year, never billing a day twice, and an overview of what is billed, unpaid and left to bill. |
 | **Clients** | Who you bill, with legal name, SIREN or company number, VAT number, address and a default rate, imported from Qonto if you use it. |
 | **Qonto** | Import your clients and the invoices you made in Qonto, and create an invoice in Qonto from tracked time, as a Qonto draft or finalized. |
+| **Quotes** | A quote for a client before the work: flat fees, days or hours at a rate, expenses and discounts, a validity date and a payment schedule. Numbered in its own series, printed with the same VAT and mentions as an invoice, then marked accepted or declined, or revised. |
 | **Manual entries** | Meetings, calls and reviews logged by hand, billable or not, next to the tracked time. |
 | **File history** | Every file of a project with its time, its edits and how much an assistant wrote, day by day. |
 | **WakaTime import** | Bring your WakaTime history with you, all of it or from a day you choose, computed with the same idle rule as live data. The preview gathers a project's spellings into one row, suggests merges, and remembers where each name goes. |
@@ -53,6 +54,7 @@ In production. Install it today.
 | **Public demo dashboard** | Made-up data, read-only, no account: see the time, AI usage and invoice views before signing up. |
 | **Your WakaTime plugins, pointed at Inlinr** | A WakaTime-compatible API, so any editor with a WakaTime plugin can send its time here with one line of config. |
 | **A switch from WakaTime in one sitting** | The status bar, summaries and stats that WakaTime's tools read come from Inlinr too, and a guide covers moving over and comparing both for a week. |
+| **Inlinr inside your assistant** | An MCP server in the inlinr CLI, so Claude Code, Cursor or any MCP client can tell you your time and AI cost, log a manual entry, or check your dependencies, without leaving the chat. |
 
 ### 🔨 In progress
 
@@ -71,7 +73,6 @@ Wanted, not started. Add a 👍 to an idea's issue to move it up: [inlinr.com/ro
 |---|---|---|
 | **AI costs on client invoices** | An optional line for what an assistant cost on a project, and a budget per project that warns before it runs out. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/7) |
 | **Time per ticket** | Read the ticket key in your branch name (ABC-123, #123) to show time and AI cost per ticket. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/8) |
-| **Inlinr inside your assistant** | An MCP server, so an assistant can tell you your time and AI cost this week, or log a manual entry, without leaving the chat. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/13) |
 | **More AI assistants** | Token and line counts from Codex, Gemini CLI and other assistants that keep local transcripts, like Claude Code today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/6) |
 | **Monthly AI report by email** | Once a month, your share of AI-written code, what the assistants cost, and which projects it went to. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/14) |
 | **JetBrains plugin** | A native plugin for IntelliJ, WebStorm, PyCharm, GoLand and Rider, with AI attribution. Their WakaTime plugin already sends time today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/4) |
