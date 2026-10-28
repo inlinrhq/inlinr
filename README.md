@@ -26,7 +26,7 @@ mentioned, which is more useful than a form that disappears into an inbox.
 
 Mirrors [inlinr.com/roadmap](https://inlinr.com/roadmap), which is the
 reference. Nothing is listed as available until it works in production.
-Last updated 27 Oct 2026.
+Last updated 28 Oct 2026.
 
 ### ✅ Available
 
@@ -39,7 +39,7 @@ In production. Install it today.
 | **Teams** | Roll up time across a repository. Teammates see hours per repository and per member — never each other's files. |
 | **Seat-based team billing** | One subscription for the team, one seat per active member, prorated when people join or leave. |
 | **Client share links** | A read-only report you choose the contents of, optionally PIN-protected. |
-| **Invoices, hourly and day rates** | Invoices from tracked time and billable manual entries, by the hour, by the day or for a fixed price in instalments, with your VAT or its legal mention. Numbered in one series per year, never billing a day twice, and an overview of what is billed, unpaid and left to bill. |
+| **Invoices, hourly and day rates** | Invoices from tracked time and billable manual entries, by the hour, by the day or for a fixed price in instalments, with your VAT or its legal mention. Numbered in the series you choose (prefix, year, next number), never billing a day twice, and an overview of what is billed, unpaid and left to bill. |
 | **Clients** | Who you bill, with legal name, SIREN or company number, VAT number, address and a default rate, imported from Qonto if you use it. |
 | **Qonto** | Import your clients and the invoices you made in Qonto, and create an invoice in Qonto from tracked time, as a Qonto draft or finalized. |
 | **Quotes** | A quote for a client before the work: flat fees, days or hours at a rate, expenses and discounts, a validity date and a payment schedule. Numbered in its own series, printed with the same VAT and mentions as an invoice, then marked accepted or declined, or revised. |
@@ -55,6 +55,7 @@ In production. Install it today.
 | **Your WakaTime plugins, pointed at Inlinr** | A WakaTime-compatible API, so any editor with a WakaTime plugin can send its time here with one line of config. |
 | **A switch from WakaTime in one sitting** | The status bar, summaries and stats that WakaTime's tools read come from Inlinr too, and a guide covers moving over and comparing both for a week. |
 | **Inlinr inside your assistant** | An MCP server in the inlinr CLI, so Claude Code, Cursor or any MCP client can tell you your time and AI cost, log a manual entry, or check your dependencies, without leaving the chat. |
+| **Codex and Gemini CLI** | Time, tokens and the lines each assistant wrote, read from the sessions Codex and Gemini CLI keep on your machine, like Claude Code's. |
 
 ### 🔨 In progress
 
@@ -73,7 +74,7 @@ Wanted, not started. Add a 👍 to an idea's issue to move it up: [inlinr.com/ro
 |---|---|---|
 | **AI costs on client invoices** | An optional line for what an assistant cost on a project, and a budget per project that warns before it runs out. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/7) |
 | **Time per ticket** | Read the ticket key in your branch name (ABC-123, #123) to show time and AI cost per ticket. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/8) |
-| **More AI assistants** | Token and line counts from Codex, Gemini CLI and other assistants that keep local transcripts, like Claude Code today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/6) |
+| **More AI assistants** | opencode and other assistants that keep their sessions on your machine, like Claude Code, Codex and Gemini CLI today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/6) |
 | **Monthly AI report by email** | Once a month, your share of AI-written code, what the assistants cost, and which projects it went to. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/14) |
 | **JetBrains plugin** | A native plugin for IntelliJ, WebStorm, PyCharm, GoLand and Rider, with AI attribution. Their WakaTime plugin already sends time today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/4) |
 | **Neovim plugin** | A native Lua plugin, lazy-loadable, with AI attribution. The WakaTime plugin already sends time today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/5) |
