@@ -26,7 +26,7 @@ mentioned, which is more useful than a form that disappears into an inbox.
 
 Mirrors [inlinr.com/roadmap](https://inlinr.com/roadmap), which is the
 reference. Nothing is listed as available until it works in production.
-Last updated 28 Oct 2026.
+Last updated 29 Oct 2026.
 
 ### ✅ Available
 
@@ -52,6 +52,7 @@ In production. Install it today.
 | **Public profile and README card** | An opt-in profile page and an SVG card for your GitHub README, light or dark, with languages, editors and AI share. |
 | **Weekly target** | Set the hours you aim for each week and watch the dashboard fill toward them. |
 | **Public demo dashboard** | Made-up data, read-only, no account: see the time, AI usage and invoice views before signing up. |
+| **Shipped vs edited code** | A project's lines that reached a commit next to the lines its editor saw, so rework is visible rather than implied. Commits come from the GitHub webhook or the inlinr sync-commits command. |
 | **Your WakaTime plugins, pointed at Inlinr** | A WakaTime-compatible API, so any editor with a WakaTime plugin can send its time here with one line of config. |
 | **A switch from WakaTime in one sitting** | The status bar, summaries and stats that WakaTime's tools read come from Inlinr too, and a guide covers moving over and comparing both for a week. |
 | **Inlinr inside your assistant** | An MCP server in the inlinr CLI, so Claude Code, Cursor or any MCP client can tell you your time and AI cost, log a manual entry, or check your dependencies, without leaving the chat. |
@@ -63,8 +64,7 @@ Being built now. Not usable yet.
 
 | | |
 |---|---|
-| **Shipped vs edited code** | Commit line counts next to editing time, so rework is visible rather than implied. |
-| **E-invoices through Qonto** | An invoice from tracked time can already be created in Qonto, which can send it as the e-invoice French business clients need from September 2027. What is left is sending it that way from Inlinr, in the same step. The printable invoice stays for clients abroad. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/12) |
+| **E-invoices through Qonto** | An invoice from tracked time is created in Qonto and sent from Inlinr as the e-invoice French business clients need from September 2027: Qonto, an approved platform, sends it through the network. What is left is checking it end to end with a client on the network. The printable invoice stays for clients abroad. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/12) |
 
 ### 💭 Considering
 
