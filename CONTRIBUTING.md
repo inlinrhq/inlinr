@@ -1,6 +1,6 @@
 # Contributing
 
-Inlinr's server is not open-source, so this repository has no code to send
+inlinr's server is not open-source, so this repository has no code to send
 pull requests to. What helps most:
 
 - **Vote** on a planned idea with a 👍 on its
