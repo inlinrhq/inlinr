@@ -1,12 +1,12 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://inlinr.com/brand/inlinr-logo-on-dark.svg">
-  <img alt="Inlinr" src="https://inlinr.com/brand/inlinr-logo-on-light.svg" height="36">
+  <img alt="inlinr" src="https://inlinr.com/brand/inlinr-logo-on-light.svg" height="36">
 </picture>
 
-# Inlinr — community
+# inlinr — community
 
 Feature requests, questions and roadmap discussion for
-[Inlinr](https://inlinr.com), time tracking for developers.
+[inlinr](https://inlinr.com), time tracking for developers.
 
 The product itself is closed-source, so this repository exists purely so the
 conversation is not. Nothing here is a code repository — it is Discussions and
@@ -58,9 +58,9 @@ In production. Install it today.
 | **Weekly target** | Set the hours you aim for each week and watch the dashboard fill toward them. |
 | **Public demo dashboard** | Made-up data, read-only, no account: see the time, AI usage and invoice views before signing up. |
 | **Shipped vs edited code** | A project's lines that reached a commit next to the lines its editor saw, so rework is visible rather than implied. Commits come from the GitHub webhook or the inlinr sync-commits command. |
-| **Your WakaTime plugins, pointed at Inlinr** | A WakaTime-compatible API, so any editor with a WakaTime plugin can send its time here with one line of config. |
-| **A switch from WakaTime in one sitting** | The status bar, summaries and stats that WakaTime's tools read come from Inlinr too, and a guide covers moving over and comparing both for a week. |
-| **Inlinr inside your assistant** | An MCP server in the inlinr CLI, so Claude Code, Cursor or any MCP client can tell you your time and AI cost, log a manual entry, or check your dependencies, without leaving the chat. |
+| **Your WakaTime plugins, pointed at inlinr** | A WakaTime-compatible API, so any editor with a WakaTime plugin can send its time here with one line of config. |
+| **A switch from WakaTime in one sitting** | The status bar, summaries and stats that WakaTime's tools read come from inlinr too, and a guide covers moving over and comparing both for a week. |
+| **inlinr inside your assistant** | An MCP server in the inlinr CLI, so Claude Code, Cursor or any MCP client can tell you your time and AI cost, log a manual entry, or check your dependencies, without leaving the chat. |
 | **Codex and Gemini CLI** | Time, tokens and the lines each assistant wrote, read from the sessions Codex and Gemini CLI keep on your machine, like Claude Code's. |
 
 ### 🔨 In progress
@@ -69,7 +69,7 @@ Being built now. Not usable yet.
 
 | | |
 |---|---|
-| **E-invoices through Qonto** | An invoice from tracked time is created in Qonto and sent from Inlinr as the e-invoice French business clients need from September 2027: Qonto, an approved platform, sends it through the network. What is left is checking it end to end with a client on the network. The printable invoice stays for clients abroad. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/12) |
+| **E-invoices through Qonto** | An invoice from tracked time is created in Qonto and sent from inlinr as the e-invoice French business clients need from September 2027: Qonto, an approved platform, sends it through the network. What is left is checking it end to end with a client on the network. The printable invoice stays for clients abroad. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/12) |
 
 ### 💭 Considering
 
