@@ -31,7 +31,7 @@ mentioned, which is more useful than a form that disappears into an inbox.
 
 Mirrors [inlinr.com/roadmap](https://inlinr.com/roadmap), which is the
 reference. Nothing is listed as available until it works in production.
-Last updated 29 Oct 2026.
+Last updated 30 Oct 2026.
 
 ### ✅ Available
 
@@ -39,10 +39,10 @@ In production. Install it today.
 
 | | |
 |---|---|
-| **VS Code, Cursor and Windsurf** | Automatic tracking from the editor, with AI attribution that only fires when an assistant actually wrote something. |
-| **Claude Code** | Time, token counts and assistant-written lines — in the terminal, the desktop app, inside any editor, and in cloud sessions. |
-| **Teams** | Roll up time across a repository. Teammates see hours per repository and per member — never each other's files. |
-| **Seat-based team billing** | One subscription for the team, one seat per active member, prorated when people join or leave. |
+| **VS Code, Cursor and Windsurf** | Automatic tracking from the editor, with AI attribution that only fires when an assistant wrote the edit. |
+| **Claude Code** | Time, token counts and assistant-written lines, from the terminal, the desktop app, any editor and cloud sessions. |
+| **Teams** | Roll up time across a repository. Teammates see hours per repository and per member. Files stay private to each person. |
+| **Seat-based team billing** | One subscription for the team, one seat per member who tracked time in the last 30 days. Readers are free. |
 | **Client share links** | A read-only report you choose the contents of, optionally PIN-protected. |
 | **Invoices, hourly and day rates** | Invoices from tracked time and billable manual entries, by the hour, by the day or for a fixed price in instalments, with your VAT or its legal mention. Numbered in the series you choose (prefix, year, next number), never billing a day twice, and an overview of what is billed, unpaid and left to bill. |
 | **Clients** | Who you bill, with legal name, SIREN or company number, VAT number, address and a default rate, imported from Qonto if you use it. |
@@ -56,7 +56,7 @@ In production. Install it today.
 | **Dependency feed** | Opt in per project for a feed of releases, release notes and security advisories for the npm packages it declares. Off by default, and switching it off deletes what was stored. |
 | **Public profile and README card** | An opt-in profile page and an SVG card for your GitHub README, light or dark, with languages, editors and AI share. |
 | **Weekly target** | Set the hours you aim for each week and watch the dashboard fill toward them. |
-| **Public demo dashboard** | Made-up data, read-only, no account: see the time, AI usage and invoice views before signing up. |
+| **Public demo dashboard** | Made-up data, no account, in English and in French: see the time, AI usage, an invoice, a quote and its budget, the pages your client opens, and Dependafeed before signing up. |
 | **Shipped vs edited code** | A project's lines that reached a commit next to the lines its editor saw, so rework is visible rather than implied. Commits come from the GitHub webhook or the inlinr sync-commits command. |
 | **Your WakaTime plugins, pointed at inlinr** | A WakaTime-compatible API, so any editor with a WakaTime plugin can send its time here with one line of config. |
 | **A switch from WakaTime in one sitting** | The status bar, summaries and stats that WakaTime's tools read come from inlinr too, and a guide covers moving over and comparing both for a week. |
@@ -69,6 +69,7 @@ Being built now. Not usable yet.
 
 | | |
 |---|---|
+| **The dashboard in French** | The dashboard in your language, French or English, chosen in Settings or read from your browser. Home, the sidebar and Settings are done; invoicing and the project pages come next. Quotes, invoices and your clients' pages already speak each client's language. |
 | **E-invoices through Qonto** | An invoice from tracked time is created in Qonto and sent from inlinr as the e-invoice French business clients need from September 2027: Qonto, an approved platform, sends it through the network. What is left is checking it end to end with a client on the network. The printable invoice stays for clients abroad. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/12) |
 
 ### 💭 Considering
@@ -83,11 +84,6 @@ Wanted, not started. Add a 👍 to an idea's issue to move it up: [inlinr.com/ro
 | **Monthly AI report by email** | Once a month, your share of AI-written code, what the assistants cost, and which projects it went to. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/14) |
 | **JetBrains plugin** | A native plugin for IntelliJ, WebStorm, PyCharm, GoLand and Rider, with AI attribution. Their WakaTime plugin already sends time today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/4) |
 | **Neovim plugin** | A native Lua plugin, lazy-loadable, with AI attribution. The WakaTime plugin already sends time today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/5) |
-<!-- roadmap:end -->
-
-Something missing? Open an idea in
-[Discussions](https://github.com/inlinrhq/inlinr/discussions/categories/ideas).
-
 ## Plugins, which are open
 
 | | |
