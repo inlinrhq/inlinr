@@ -85,9 +85,9 @@ Wanted, not started. Add a 👍 to an idea's issue to move it up: [inlinr.com/ro
 | **Monthly AI report by email** | Once a month, your share of AI-written code, what the assistants cost, and which projects it went to. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/14) |
 | **JetBrains plugin** | A native plugin for IntelliJ, WebStorm, PyCharm, GoLand and Rider, with AI attribution. Their WakaTime plugin already sends time today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/4) |
 | **Neovim plugin** | A native Lua plugin, lazy-loadable, with AI attribution. The WakaTime plugin already sends time today. | [👍 Vote](https://github.com/inlinrhq/inlinr/issues/5) |
-## Plugins, which are open
+## What is open
 
-| | Source | Setup and what it sends |
+| | Source | On inlinr.com |
 |---|---|---|
 | Claude Code | [inlinrhq/inlinr-claude-code](https://github.com/inlinrhq/inlinr-claude-code) | [Claude Code integration](https://inlinr.com/integrations/claude-code) |
 | CLI | [inlinrhq/inlinr-cli](https://github.com/inlinrhq/inlinr-cli) | [MCP server](https://inlinr.com/integrations/mcp) |
